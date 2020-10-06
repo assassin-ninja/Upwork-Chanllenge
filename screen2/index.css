@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fill {
+    min-height: 100vh !important;
+    height: 100%;
+}
+
+.top-background {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,115,1) 29%, rgba(19,106,171,1) 100%);
+    height: auto;
+    text-align: center;
+    color: #fff;
+    padding: 20px 20px 250px 20px;
+}
+
+.top-background h1 {
+    padding-top: 100px;
+}
+
+.body-input {
+    margin-top: -150px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#pass-status {
+    float: right;
+    margin-right: 10px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-section {
+    text-align: center;
+    height: 100px;
+    background-image: url('./background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}

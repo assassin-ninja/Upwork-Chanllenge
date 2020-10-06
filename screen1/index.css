@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fill {
+    min-height: 100vh !important;
+    height: 100%;
+}
+
+.top-background {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,115,1) 29%, rgba(19,106,171,1) 100%);
+    clip-path: polygon(0 0,100% 0,100% 70%,90% 70%,50% 85%,10% 70%,0 70%);
+    height: auto;
+    text-align: center;
+    color: #fff;
+    padding: 20px 20px 100px 20px;
+}
+
+.body-text {
+    text-align: center;
+    color: #090973;
+}
+
+.body-text h5 {
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    text-align: center;
+    margin-top: 30px;
+    background-image: url('./background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer-section .user-avatar {
+    margin-bottom: 30px;
+    color: #17a2b8;
+}
+
+.footer-section button {
+    margin-bottom: 30px;
+}
